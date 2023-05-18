@@ -1,1 +1,5 @@
-@import "_generic-styles.css";
+@import "_generic-styles";
+
+body {
+	background-color: var(--color-blue);
+}
