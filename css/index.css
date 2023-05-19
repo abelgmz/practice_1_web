@@ -23,18 +23,25 @@
     transform: scale(1.1);
     box-shadow: 2px 2px 2px 2px var(--color-green-light); }
 
-body .card, body .card main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
 .card {
   width: 60%;
   border: 0.1rem solid var(--color-green);
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  margin: 2rem auto; }
+
+.card-center {
+  justify-content: center; }
 
 .row {
   width: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.card-flex, body .card, body .card main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 body .card {
   margin: 2rem auto;

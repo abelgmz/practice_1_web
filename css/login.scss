@@ -1,0 +1,22 @@
+@import "_generic-styles";
+
+body {
+	.card {
+		width: 30%;
+	}
+	header {
+		h1 {
+			font-size: 2.5rem;
+		}
+	}
+	.form {
+		margin: 1rem 2rem;
+		.form-footer {
+			margin: 1rem 0rem;
+			a {
+				padding: 0.5rem 0rem 0rem 0rem;
+				display: block;
+			}
+		}
+	}
+}

@@ -8,28 +8,49 @@
 		<link rel="stylesheet" href="css/login.css" />
 	</head>
 	<body>
-		<header>
-			<h1>Login</h1>
-		</header>
-		<main>
-			<section>
-				<form action="">
-					<div>
-						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
-					</div>
-					<div>
-						<label for="passwowrd">Password</label>
-						<input type="password" name="password" id="password" />
-					</div>
-					<div>
-						<button>Submit</button>
-						<a href="#">Forgot your password?</a>
-					</div>
-				</form>
-			</section>
-		</main>
-		<footer></footer>
+		<section class="card display-flex justified-center">
+			<header class="row text-center">
+				<h1>Login</h1>
+			</header>
+			<main class="row">
+				<section class="input-form">
+					<form action="" class="form">
+						<div class="row">
+							<label for="email" class="label-styles"
+								>Email</label
+							>
+							<input
+								type="text"
+								name="email"
+								id="email"
+								placeholder="example@example.com"
+								class="input-styles"
+							/>
+						</div>
+						<div class="row">
+							<label for="passwowrd" class="label-styles"
+								>Password</label
+							>
+							<input
+								type="password"
+								name="password"
+								id="password"
+								placeholder="*******"
+								class="input-styles"
+							/>
+						</div>
+						<div class="form-footer text-center">
+							<input
+								type="submit"
+								value="Submit"
+								class="button"
+							/>
+							<a href="#">Forgot your password?</a>
+						</div>
+					</form>
+				</section>
+			</main>
+		</section>
 	</body>
 	`
 </html>

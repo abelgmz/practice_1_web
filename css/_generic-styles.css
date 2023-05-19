@@ -16,7 +16,8 @@
   padding: 0.5rem;
   background-color: var(--color-green);
   color: var(--color-white);
-  border: var(--color-green); }
+  border: var(--color-green);
+  font-size: 1.2rem; }
   .button:hover {
     cursor: pointer;
     transition: all 0.5s ease;
@@ -26,9 +27,33 @@
 .card {
   width: 60%;
   border: 0.1rem solid var(--color-green);
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  margin: 2rem auto; }
+
+.justified-center {
+  justify-content: center; }
 
 .row {
-  width: 100%; }
+  width: 100%;
+  margin: 0.5rem 0rem; }
+
+.text-center {
+  text-align: center; }
+
+.input-styles {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.5rem; }
+
+.label-styles {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem; }
+
+.display-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 /*# sourceMappingURL=_generic-styles.css.map */
