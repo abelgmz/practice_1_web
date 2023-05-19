@@ -59,6 +59,7 @@ body .card {
     body .card main .buttons {
       padding: 1rem 0rem; }
       body .card main .buttons .button {
-        font-size: 2rem; }
+        font-size: 2rem;
+        text-decoration: none; }
 
 /*# sourceMappingURL=index.css.map */
