@@ -22,7 +22,7 @@
     cursor: pointer;
     transition: all 0.5s ease;
     transform: scale(1.1);
-    box-shadow: 2px 2px 2px 2px var(--color-green-light); }
+    box-shadow: 10px black; }
 
 .background-green {
   background-color: var(--color-green); }
