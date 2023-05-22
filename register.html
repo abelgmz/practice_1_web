@@ -6,6 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Register</title>
 		<link rel="stylesheet" href="css/register.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.7.0.min.js"
+			integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<section class="card">
@@ -92,11 +97,17 @@
 								value="Submit"
 								class="button background-green"
 							/>
-							<button class="button background-red">clear</button>
+							<button
+								class="button background-red"
+								id="btn-clear"
+							>
+								clear
+							</button>
 						</div>
 					</form>
 				</section>
 			</main>
 		</section>
 	</body>
+	<script src="js/events.js"></script>
 </html>
