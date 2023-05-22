@@ -13,9 +13,17 @@ body {
 		margin: 1rem 2rem;
 		.form-footer {
 			margin: 1rem 0rem;
-			a {
-				padding: 0.5rem 0rem 0rem 0rem;
-				display: block;
+			p {
+				margin-top: 0.5rem;
+
+				a {
+					padding: 0.5rem 0rem 0rem 0rem;
+					color: var(--color-green);
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
 			}
 		}
 	}

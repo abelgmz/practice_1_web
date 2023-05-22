@@ -70,8 +70,13 @@ body .form {
   margin: 1rem 2rem; }
   body .form .form-footer {
     margin: 1rem 0rem; }
-    body .form .form-footer a {
-      padding: 0.5rem 0rem 0rem 0rem;
-      display: block; }
+    body .form .form-footer p {
+      margin-top: 0.5rem; }
+      body .form .form-footer p a {
+        padding: 0.5rem 0rem 0rem 0rem;
+        color: var(--color-green);
+        text-decoration: none; }
+        body .form .form-footer p a:hover {
+          text-decoration: underline; }
 
 /*# sourceMappingURL=login.css.map */
