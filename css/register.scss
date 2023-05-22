@@ -12,7 +12,10 @@ body {
 		.form {
 			margin: 1rem 2rem;
 			.form-footer {
-				margin: 1rem 2rem;
+				margin: 1rem 0rem;
+				p {
+					margin-top: 0.5rem;
+				}
 			}
 		}
 	}
