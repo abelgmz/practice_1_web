@@ -69,10 +69,9 @@ body .card {
   body .card header {
     text-align: center;
     margin-bottom: 2rem;
-    background-color: var(--color-blue); }
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5); }
     body .card header h1 {
       font-size: 2.5rem;
-      color: var(--color-white);
       padding: 1rem 0.5rem 1rem 0.5rem; }
   body .card main {
     justify-content: center; }
@@ -97,12 +96,20 @@ body .card {
     width: 50%;
     background-color: purple; } }
 @media screen and (max-width: 768px) {
-  .card {
+  body .card {
     width: 50%;
     background-color: blue; } }
 @media screen and (max-width: 576px) {
   body .card {
-    width: 50%;
-    background-color: red; } }
+    background-color: white;
+    width: 50%; }
+    body .card header {
+      background-color: white; }
+      body .card header h1 {
+        font-size: 2rem; }
+    body .card main .information p {
+      font-size: 1.5rem; }
+    body .card main .buttons .button {
+      font-size: 1.5rem; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -16,17 +16,38 @@
 }
 
 @media screen and (max-width: 768px) {
-	.card {
-		width: 50%;
-		background-color: blue;
+	body {
+		.card {
+			width: 50%;
+			background-color: blue;
+		}
 	}
 }
 
 @media screen and (max-width: 576px) {
 	body {
 		.card {
+			background-color: white;
+			header {
+				background-color: white;
+				h1 {
+					font-size: 2rem;
+				}
+			}
 			width: 50%;
-			background-color: red;
+
+			main {
+				.information {
+					p {
+						font-size: 1.5rem;
+					}
+				}
+				.buttons {
+					.button {
+						font-size: 1.5rem;
+					}
+				}
+			}
 		}
 	}
 }
